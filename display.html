@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Airport Emergency System</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>Airport Emergency System</header>
+  <nav>
+    <a href="#">Displays</a>
+    <a href="#">Users</a>
+    <a href="#" class="active">Emergency</a>
+    <a href="#">System Config</a>
+  </nav>
+  <div class="container">
+    <h2>Emergency Alert Templates</h2>
+    <div class="cards" id="emergencyCards"></div>
+    <button class="activate-button" onclick="activateSelectedEmergency()">Activate Selected Emergency</button>
+    <button class="add-button">Add Emergency</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
